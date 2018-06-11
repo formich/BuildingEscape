@@ -6,3 +6,5 @@
 BuildingEscape/Content/StarterContent/
 *VC.db*
 *.uasset
+*.ipch
+*.opendb
