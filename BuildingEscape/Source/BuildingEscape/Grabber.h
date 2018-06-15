@@ -38,4 +38,11 @@ private:
 	void Grab();
 
 	void Release();
+
+	void FindPhysicsHandleComponent();
+
+	void SetupInputComponent();
+
+	// Return hit for the first physics object in reach
+	const FHitResult GetFirstPhysiscsBodyInReach();
 };
